@@ -38,7 +38,7 @@ const FinancialsCard = ({ symbol }) => {
           <div className="tradingview-widget-copyright">
             <a
               href="https://www.tradingview.com/?utm_source=localhost&utm_medium=widget_new&utm_campaign=chart&utm_term=STZ"
-              rel="noopener nofollow"
+              rel="noreferrer"
               target="_blank"
             >
               <span className="blue-text">Track all markets on TradingView</span>

@@ -1,6 +1,6 @@
 import axios from 'axios';
-import React, { useEffect, useState, useRef } from 'react';
-import { Row, Col, Card, Table, Spinner, Image, Button, Collapse } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Row, Card, Spinner, Image, Button, Collapse } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 import FinancialsCard from './FinancialsCard';
@@ -10,8 +10,6 @@ const Symbol = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const { ticker_symbol } = useParams();
-  const stockChartRef = useRef(null);
-  const financialsRef = useRef(null);
   useEffect(() => {
     axios
       .get(`https://confai-web-app.azurewebsites.net/api/symbol/${ticker_symbol}/?format=json`)

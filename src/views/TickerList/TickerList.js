@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Row, Col, Card, Table, Spinner } from 'react-bootstrap';
+import { Row, Col, Card, Spinner } from 'react-bootstrap';
 
 const TickerList = () => {
   const [data, setData] = useState([]);
