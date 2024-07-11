@@ -20,7 +20,7 @@ export const renderRoutes = (routes = []) => (
             path={route.path}
             element={
               <Guard>
-                <Layout>{route.routes ? renderRoutes(route.routes) : <Element />}</Layout>
+                <Layout>{route.routes ? renderRoutes(route.routes) : <Element props={true} />}</Layout>
               </Guard>
             }
           />
@@ -32,22 +32,22 @@ export const renderRoutes = (routes = []) => (
 
 const routes = [
   {
-    exact: true,
+    exact: 'true',
     path: '/login',
     element: lazy(() => import('./views/auth/signin/SignIn1'))
   },
   {
-    exact: true,
+    exact: 'true',
     path: '/auth/signin-1',
     element: lazy(() => import('./views/auth/signin/SignIn1'))
   },
   {
-    exact: true,
+    exact: 'true',
     path: '/auth/signup-1',
     element: lazy(() => import('./views/auth/signup/SignUp1'))
   },
   {
-    exact: true,
+    exact: 'true',
     path: '/auth/reset-password-1',
     element: lazy(() => import('./views/auth/reset-password/ResetPassword1'))
   },
@@ -56,78 +56,78 @@ const routes = [
     layout: AdminLayout,
     routes: [
       {
-        exact: true,
+        exact: 'true',
         path: '/all-calls',
         element: lazy(() => import('./views/dashboard'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/prior-ticker-list',
         element: lazy(() => import('./views/PriorTickerList/PriorTickerList'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/symbol-detail/:ticker_symbol',
         element: lazy(() => import('./views/PriorTickerList/Symbol'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/ticker-list',
         element: lazy(() => import('./views/TickerList/TickerList'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/call-detail/:ticker_symbol/:year/:quarter/',
         element: lazy(() => import('./views/dashboard/CallDetail'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/basic/pagination',
         element: lazy(() => import('./views/ui-elements/basic/BasicPagination'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/basic/collapse',
         element: lazy(() => import('./views/ui-elements/basic/BasicCollapse'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/basic/tabs-pills',
         element: lazy(() => import('./views/ui-elements/basic/BasicTabsPills'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/basic/typography',
         element: lazy(() => import('./views/ui-elements/basic/BasicTypography'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/forms/form-basic',
         element: lazy(() => import('./views/forms/FormsElements'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/tables/bootstrap',
         element: lazy(() => import('./views/tables/BootstrapTable'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/charts/nvd3',
         element: lazy(() => import('./views/charts/nvd3-chart'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/maps/google-map',
         element: lazy(() => import('./views/maps/GoogleMaps'))
       },
       {
-        exact: true,
+        exact: 'true',
         path: '/sample-page',
         element: lazy(() => import('./views/extra/SamplePage'))
       },
       {
         path: '*',
-        exact: true,
+        exact: 'true',
         element: () => <Navigate to={BASE_URL} />
       }
     ]
