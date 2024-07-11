@@ -1,5 +1,6 @@
 {
   "homepage": "https://asif-py.github.io/confai-react/",
+  "proxy": "https://asif-py.github.io/confai-react/",
   "name": "confai-react",
   "version": "2.0.0",
   "private": false,
