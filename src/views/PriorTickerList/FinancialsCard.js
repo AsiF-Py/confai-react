@@ -4,26 +4,31 @@ const FinancialsCard = ({ symbol }) => {
   const widgetContainerRef = useRef(null);
 
   useEffect(() => {
+    // Ensure the ref is available before proceeding
     if (!widgetContainerRef.current) return;
 
+    // Create a script element for embedding TradingView widget
     const script = document.createElement('script');
     script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-financials.js';
     script.async = true;
     script.innerHTML = JSON.stringify({
+      symbol: symbol,
+      colorTheme: 'light',
       isTransparent: false,
       largeChartUrl: '',
       displayMode: 'regular',
       width: '100%',
       height: '100%',
-      colorTheme: 'light',
-      symbol: symbol,
       locale: 'en'
     });
 
+    // Append the script to the widget container
     widgetContainerRef.current.appendChild(script);
 
+    // Cleanup function to remove script and clear container on unmount
     return () => {
-      widgetContainerRef.current.innerHTML = ''; // Clear the container on unmount
+      widgetContainerRef.current.innerHTML = ''; // Remove any remaining content
+      script.remove(); // Remove the script element
     };
   }, [symbol]);
 

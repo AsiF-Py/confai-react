@@ -1,8 +1,9 @@
-// import 'react-app-polyfill/ie11';
-// import 'react-app-polyfill/stable';
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 
 import './services';
 
@@ -14,12 +15,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import store from './store';
 
-const container = document.getElementById('root');
-const root = createRoot(container);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <Provider store={store}>
     <ConfigProvider>
-      <App />
+      <BrowserRouter basename={process.env.REACT_APP_BASE_NAME}>
+        <App />
+      </BrowserRouter>
     </ConfigProvider>
   </Provider>
 );
