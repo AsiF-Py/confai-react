@@ -1,30 +1,15 @@
 {
   "files": {
     "main.css": "https://asif-py.github.io/confai-react/static/css/main.7f13bce3.css",
-    "main.js": "https://asif-py.github.io/confai-react/static/js/main.29729ed6.js",
-    "static/js/488.272832a9.chunk.js": "https://asif-py.github.io/confai-react/static/js/488.272832a9.chunk.js",
-    "static/js/619.5c07558f.chunk.js": "https://asif-py.github.io/confai-react/static/js/619.5c07558f.chunk.js",
-    "static/js/776.9f8beb63.chunk.js": "https://asif-py.github.io/confai-react/static/js/776.9f8beb63.chunk.js",
-    "static/js/164.9b016e0d.chunk.js": "https://asif-py.github.io/confai-react/static/js/164.9b016e0d.chunk.js",
-    "static/js/320.cb834d7e.chunk.js": "https://asif-py.github.io/confai-react/static/js/320.cb834d7e.chunk.js",
-    "static/js/484.43e7eb17.chunk.js": "https://asif-py.github.io/confai-react/static/js/484.43e7eb17.chunk.js",
-    "static/js/18.429a3681.chunk.js": "https://asif-py.github.io/confai-react/static/js/18.429a3681.chunk.js",
-    "static/js/381.99fd98c0.chunk.js": "https://asif-py.github.io/confai-react/static/js/381.99fd98c0.chunk.js",
-    "static/js/947.deca11c8.chunk.js": "https://asif-py.github.io/confai-react/static/js/947.deca11c8.chunk.js",
-    "static/js/98.54b7a2ae.chunk.js": "https://asif-py.github.io/confai-react/static/js/98.54b7a2ae.chunk.js",
-    "static/js/251.6cb41211.chunk.js": "https://asif-py.github.io/confai-react/static/js/251.6cb41211.chunk.js",
-    "static/js/821.ec75e4ae.chunk.js": "https://asif-py.github.io/confai-react/static/js/821.ec75e4ae.chunk.js",
-    "static/js/97.11c8422a.chunk.js": "https://asif-py.github.io/confai-react/static/js/97.11c8422a.chunk.js",
-    "static/js/374.92502234.chunk.js": "https://asif-py.github.io/confai-react/static/js/374.92502234.chunk.js",
-    "static/js/818.f30d8738.chunk.js": "https://asif-py.github.io/confai-react/static/js/818.f30d8738.chunk.js",
-    "static/js/851.2af15b2c.chunk.js": "https://asif-py.github.io/confai-react/static/js/851.2af15b2c.chunk.js",
-    "static/js/955.696d2261.chunk.js": "https://asif-py.github.io/confai-react/static/js/955.696d2261.chunk.js",
-    "static/js/522.9fea1d29.chunk.js": "https://asif-py.github.io/confai-react/static/js/522.9fea1d29.chunk.js",
-    "static/js/927.0f1a4562.chunk.js": "https://asif-py.github.io/confai-react/static/js/927.0f1a4562.chunk.js",
-    "static/js/272.3a08f466.chunk.js": "https://asif-py.github.io/confai-react/static/js/272.3a08f466.chunk.js",
-    "static/js/820.ebfe50d3.chunk.js": "https://asif-py.github.io/confai-react/static/js/820.ebfe50d3.chunk.js",
-    "static/js/999.fda1b989.chunk.js": "https://asif-py.github.io/confai-react/static/js/999.fda1b989.chunk.js",
-    "static/js/306.f2168dbd.chunk.js": "https://asif-py.github.io/confai-react/static/js/306.f2168dbd.chunk.js",
+    "main.js": "https://asif-py.github.io/confai-react/static/js/main.0ca771f0.js",
+    "static/js/164.bd2d1e83.chunk.js": "https://asif-py.github.io/confai-react/static/js/164.bd2d1e83.chunk.js",
+    "static/js/320.f89fb190.chunk.js": "https://asif-py.github.io/confai-react/static/js/320.f89fb190.chunk.js",
+    "static/js/484.99583a79.chunk.js": "https://asif-py.github.io/confai-react/static/js/484.99583a79.chunk.js",
+    "static/js/18.5e2d45d6.chunk.js": "https://asif-py.github.io/confai-react/static/js/18.5e2d45d6.chunk.js",
+    "static/js/381.7138e398.chunk.js": "https://asif-py.github.io/confai-react/static/js/381.7138e398.chunk.js",
+    "static/js/522.916378ea.chunk.js": "https://asif-py.github.io/confai-react/static/js/522.916378ea.chunk.js",
+    "static/js/59.e8d3a2b7.chunk.js": "https://asif-py.github.io/confai-react/static/js/59.e8d3a2b7.chunk.js",
+    "static/js/840.13c595d8.chunk.js": "https://asif-py.github.io/confai-react/static/js/840.13c595d8.chunk.js",
     "static/media/fa-solid-900.svg": "https://asif-py.github.io/confai-react/static/media/fa-solid-900.fc5dd5b7715de80aae18.svg",
     "static/media/fa-brands-400.svg": "https://asif-py.github.io/confai-react/static/media/fa-brands-400.c85bfa49e8f57a88ad68.svg",
     "static/media/fa-solid-900.eot": "https://asif-py.github.io/confai-react/static/media/fa-solid-900.f06e568e0195a8a577d5.eot",
@@ -61,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.7f13bce3.css",
-    "static/js/main.29729ed6.js"
+    "static/js/main.0ca771f0.js"
   ]
 }
