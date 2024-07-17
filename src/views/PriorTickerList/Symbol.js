@@ -87,11 +87,10 @@ const Symbol = () => {
         </Card>
 
         <Card>
-          
           <div style={{ height: '600px' }} className="p-5">
-          <div className="card-header">
-            <h2 className="card-title">Stock Chart</h2>
-          </div>
+            <div className="card-header">
+              <h2 className="card-title">Stock Chart</h2>
+            </div>
             <TradingViewWidget
               locale="en"
               autosize

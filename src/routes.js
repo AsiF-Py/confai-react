@@ -32,26 +32,6 @@ export const renderRoutes = (routes = []) => (
 
 const routes = [
   {
-    exact: 'true',
-    path: '/login',
-    element: lazy(() => import('./views/auth/signin/SignIn1'))
-  },
-  {
-    exact: 'true',
-    path: '/auth/signin-1',
-    element: lazy(() => import('./views/auth/signin/SignIn1'))
-  },
-  {
-    exact: 'true',
-    path: '/auth/signup-1',
-    element: lazy(() => import('./views/auth/signup/SignUp1'))
-  },
-  {
-    exact: 'true',
-    path: '/auth/reset-password-1',
-    element: lazy(() => import('./views/auth/reset-password/ResetPassword1'))
-  },
-  {
     path: '*',
     layout: AdminLayout,
     routes: [
@@ -79,51 +59,6 @@ const routes = [
         exact: 'true',
         path: '/call-detail/:ticker_symbol/:year/:quarter/',
         element: lazy(() => import('./views/dashboard/CallDetail'))
-      },
-      {
-        exact: 'true',
-        path: '/basic/pagination',
-        element: lazy(() => import('./views/ui-elements/basic/BasicPagination'))
-      },
-      {
-        exact: 'true',
-        path: '/basic/collapse',
-        element: lazy(() => import('./views/ui-elements/basic/BasicCollapse'))
-      },
-      {
-        exact: 'true',
-        path: '/basic/tabs-pills',
-        element: lazy(() => import('./views/ui-elements/basic/BasicTabsPills'))
-      },
-      {
-        exact: 'true',
-        path: '/basic/typography',
-        element: lazy(() => import('./views/ui-elements/basic/BasicTypography'))
-      },
-      {
-        exact: 'true',
-        path: '/forms/form-basic',
-        element: lazy(() => import('./views/forms/FormsElements'))
-      },
-      {
-        exact: 'true',
-        path: '/tables/bootstrap',
-        element: lazy(() => import('./views/tables/BootstrapTable'))
-      },
-      {
-        exact: 'true',
-        path: '/charts/nvd3',
-        element: lazy(() => import('./views/charts/nvd3-chart'))
-      },
-      {
-        exact: 'true',
-        path: '/maps/google-map',
-        element: lazy(() => import('./views/maps/GoogleMaps'))
-      },
-      {
-        exact: 'true',
-        path: '/sample-page',
-        element: lazy(() => import('./views/extra/SamplePage'))
       },
       {
         path: '*',

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import NavLeft from './NavLeft';
+// import NavLeft from './NavLeft';
 import NavRight from './NavRight';
 
 import { ConfigContext } from '../../../contexts/ConfigContext';
@@ -45,14 +45,14 @@ const NavBar = () => {
           <div className="b-bg">
             <i className="feather icon-trending-up" />
           </div>
-          <span className="b-title">Datta Able</span>
+          <span className="b-title">Confai</span>
         </Link>
         <Link to="#" className={moreClass.join(' ')} onClick={() => setMoreToggle(!moreToggle)}>
           <i className="feather icon-more-vertical" />
         </Link>
       </div>
       <div style={{ justifyContent: 'space-between' }} className={collapseClass.join(' ')}>
-        <NavLeft />
+        {/* <NavLeft /> */}
         <NavRight />
       </div>
     </React.Fragment>
