@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { ConfigContext } from '../../../../contexts/ConfigContext';
 import * as actionType from '../../../../store/actions';
+import img from '../../../../assets/images/logo.png';
 import { Image } from 'react-bootstrap';
 
 const NavLogo = () => {
@@ -21,7 +22,7 @@ const NavLogo = () => {
         <Link to="#" className="b-brand">
           {/* <div className="b-bg"> */}
 
-          <Image src="./Confai 2.png" alt="not funtd" />
+          <Image width="20%" src={img} alt="not funtd" />
           {/* </div> */}
           <span className="b-title">Confai</span>
         </Link>
