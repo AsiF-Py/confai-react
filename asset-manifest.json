@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://asif-py.github.io/confai-react/static/css/main.7f13bce3.css",
-    "main.js": "https://asif-py.github.io/confai-react/static/js/main.1ed19bb6.js",
+    "main.js": "https://asif-py.github.io/confai-react/static/js/main.3203a001.js",
     "static/js/164.bd2d1e83.chunk.js": "https://asif-py.github.io/confai-react/static/js/164.bd2d1e83.chunk.js",
     "static/js/320.f89fb190.chunk.js": "https://asif-py.github.io/confai-react/static/js/320.f89fb190.chunk.js",
     "static/js/484.99583a79.chunk.js": "https://asif-py.github.io/confai-react/static/js/484.99583a79.chunk.js",
@@ -22,6 +22,7 @@
     "static/media/fa-solid-900.woff": "https://asif-py.github.io/confai-react/static/media/fa-solid-900.0239b22511e2cbe0741a.woff",
     "static/media/Flaticon.svg": "https://asif-py.github.io/confai-react/static/media/Flaticon.1d95ae0bc41339b56e33.svg",
     "static/media/fa-brands-400.woff": "https://asif-py.github.io/confai-react/static/media/fa-brands-400.3696430def234662756a.woff",
+    "static/media/logo.png": "https://asif-py.github.io/confai-react/static/media/logo.95d035ba55b00b24e9b8.png",
     "static/media/fa-solid-900.woff2": "https://asif-py.github.io/confai-react/static/media/fa-solid-900.c2b7c03209f0d3558e85.woff2",
     "static/media/fa-brands-400.woff2": "https://asif-py.github.io/confai-react/static/media/fa-brands-400.97120c2696ac6694632d.woff2",
     "static/media/cryptocoins.woff": "https://asif-py.github.io/confai-react/static/media/cryptocoins.413a26ec18bc22cbbb0a.woff",
@@ -46,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.7f13bce3.css",
-    "static/js/main.1ed19bb6.js"
+    "static/js/main.3203a001.js"
   ]
 }
